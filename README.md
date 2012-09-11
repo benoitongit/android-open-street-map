@@ -1,4 +1,4 @@
 android-open-street-map
 =======================
 
-OpenStreetMap Library for Android
+OpenStreetMap library for Android
