@@ -1,0 +1,3 @@
+CREATE TABLE tiles (tilekey INTEGER PRIMARY KEY, row INTEGER, col INTEGER, zoom INTEGER, image BLOB);
+CREATE TABLE mapEntities (entityId INTEGER PRIMARY KEY, associatedEntityId INTEGER DEFAULT (0), associatedEntityType TEXT, title TEXT, maxLat DOUBLE, maxLon DOUBLE, minLat DOUBLE, minLon DOUBLE, creationDate DATETIME);
+CREATE TABLE mapTilesEntities (mapTilesEntityId INTEGER PRIMARY KEY, entityId INTEGER, tilekey INTEGER);

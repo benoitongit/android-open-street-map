@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Open Street Map Example</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Open Street Map Example</string>
+
+</resources>
