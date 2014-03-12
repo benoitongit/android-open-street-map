@@ -23,6 +23,7 @@ local.properties
 .classpath
 .project
 .settings
+.metadata
 
 # Intellij files
 *.iml
@@ -35,10 +36,6 @@ proguard/
 build.xml
 proguard-project.txt
 
-# crashlytics
-com_crashlytics_export_strings.xml
-.*.sw*
-
 .gradle/
 ta-android-common/
 ta-android-mobile/
@@ -46,11 +43,3 @@ ta-localize/
 local.properties
 .idea/
 *.iml
-
-.*.sw*
-lint_report/
-
-*.py[cod]
-
-# eclipse
-.metadata
